@@ -1,0 +1,22 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "retry": "Retry"
+  },
+  "home": {
+    "title": "Clean Architecture Users Template",
+    "goToUsers": "Go to Users",
+    "goToTasks": "Go to Tasks",
+    "goToEducation": "Education admin",
+    "goToLogin": "Admin login"
+  },
+  "users": {
+    "title": "Users",
+    "empty": "No users yet."
+  },
+  "tasks": {
+    "title": "Tasks",
+    "empty": "No tasks yet."
+  }
+}
