@@ -1,0 +1,125 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/sdks
+.pnpm-store
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bower_components
+jspm_packages
+
+# Build & output
+.next
+out
+dist
+build
+*.tsbuildinfo
+.turbo
+.vercel
+.netlify
+
+# Testing
+coverage
+*.lcov
+.nyc_output
+playwright-report
+playwright/.cache
+test-results
+*.spec.ts.snap
+__snapshots__
+
+# Storybook
+storybook-static
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+.secret
+.secrets
+*.key
+
+# OS & editor
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings
+*.sublime-workspace
+*.sublime-project
+
+# IDE
+.idea
+.vscode
+*.code-workspace
+
+# Debug & logs
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Optional & local
+*.local
+.cache
+.temp
+.tmp
+tmp
+temp
+
+# Husky (optional: uncomment to ignore hook scripts in some setups)
+# .husky/_
+
+# Misc
+*.bak
+*.orig
+*.rej
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Package manager
+.npm
+.yarn-integrity
+package-lock.json.bak
+yarn.lock.bak
+pnpm-lock.yaml.bak
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+vite.config.ts.timestamp-*
+
+# PWA
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/swe-worker-*.js
+
+# Sentry
+.sentryclirc
+
+# Misc backup & temp
+*.backup
+*.old

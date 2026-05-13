@@ -1,0 +1,22 @@
+# Dependencies & build
+node_modules
+.next
+out
+dist
+build
+storybook-static
+.turbo
+.vercel
+
+# Generated & cache
+*.min.js
+*.min.css
+coverage
+.cache
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Misc
+*.md
+CHANGELOG*
